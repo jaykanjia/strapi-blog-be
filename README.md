@@ -55,3 +55,26 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+# Strapi Setup Steps
+
+**install strapi app**
+
+```
+yarn create strapi-app strapi-blog-be
+```
+
+options for custom settings
+
+- Typescript
+- postgresql
+
+```
+cd strapi-blog-be
+yarn develop
+```
+
+**create admin account**
+route(http://localhost:1337/admin/auth/register-admin)
+
+**install documentation plugin**
